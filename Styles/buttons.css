@@ -1,0 +1,50 @@
+.button {
+  padding: 3px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+header .button {
+  margin: 10px 0;
+}
+.btn-salmon {
+  background-color: #ffa384;
+  border: 2px solid #ffa384;
+}
+.btn-salmon:hover {
+  color: #ffa384;
+  background-color: white;
+  border: 2px solid white;
+}
+.btn-salmon-bg-w {
+  background-color: white;
+  border: 2px solid white;
+  color: #ffa384 !important;
+}
+.btn-salmon-bg-w:hover {
+  color: white !important;
+  background-color: #ffa384;
+  border: 2px solid #ffa384;
+}
+.btn-aqua {
+  background-color: #74bdcb;
+  border: 2px solid #74bdcb;
+}
+.btn-aqua:hover {
+  color: #74bdcb;
+  background-color: white;
+}
+
+.btn-aqua-bg-w {
+  background-color: white;
+  border: 2px solid white;
+  color: #74bdcb !important;
+}
+.btn-aqua-bg-w:hover {
+  color: white !important;
+  background-color: #74bdcb;
+  border: 2px solid #74bdcb;
+}

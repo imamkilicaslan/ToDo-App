@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="Styles/to-do-style.css" />
+    <link rel="stylesheet" href="Styles/buttons.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <h1>To-Do App</h1>
+      </header>
+      <main>
+        <section>
+          <article id="" class="inputText-container">
+            <input placeholder="Bir görev yaz..." type="text" id="InputText" />
+            <form class="" action="">
+              <div id="AddTaskBtn" class="button btn-aqua">
+                <span class="add-btn material-symbols-outlined"> add </span>
+              </div>
+            </form>
+          </article>
+          <section id="Filters-delete-container" class="inputText-container">
+            <article id="Filters" class="">
+              <button id="AllTasks" type="button" class="button btn-aqua">
+                Hepsi
+              </button>
+              <button id="CompletedTasks" type="button" class="button btn-aqua">
+                Tamamlananlar
+              </button>
+              <button
+                id="NoCompletedTasks"
+                type="button"
+                class="button btn-aqua"
+              >
+                Tamamlanmayanlar
+              </button>
+            </article>
+            <button
+              onclick="deleteAllTasksBtn()"
+              class="button btn-salmon"
+              type="button"
+            >
+              Tüm Görevleri Sil
+            </button>
+          </section>
+          <article>
+            <ul id="Tasks-container"></ul>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="to-do-script.js"></script>
+  </body>
+</html>
