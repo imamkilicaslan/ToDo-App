@@ -1,3 +1,3 @@
 # ToDo-App
-#To Do list uygulaması
+# To Do list uygulaması
 #### JavaScript öğrenirken yaptığım to do list uygulamam.
